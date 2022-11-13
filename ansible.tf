@@ -5,6 +5,7 @@ resource "aws_instance" "ansible" {
     key_name = "canada-region"
     tags = {
         Name = "ansible-master"
+	project_owner = "bhasha"
     }
   
 }
